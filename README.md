@@ -10,19 +10,22 @@ A solution for R creating executive file
 
 ## Before start
 You should add R path into System variables, or cmd can't find Rscript.
-[How to add system variables](https://www.youtube.com/watch?v=C-U9SGaNbwY)
+([How to add system variables](https://www.youtube.com/watch?v=C-U9SGaNbwY))
 
 ## Let's start
 ### Step 1: 
-Use Python to call specifty R script. (You can do it with 'performR.py')
+Use Python to call specifty R script. (You can do it with "performR.py")
 
 ### Step 2:
-Use py2exe to pack 'performR.py', and you will get 'dist' directory.
+Use py2exe to pack "performR.py", and you will get 'dist' directory. (You will do this step by "setup.py")
 
 ### Step 3:
+Entering "python setup.py py2exe" in cmd, and py2exe will start packing.
+
+### Step 4
 Put your R script into correct path. (Where should you put the R script depends on your code. In my case, you should put R script in the same directory as 'performR.exe')
 
-### Step 4:
+### Step 5:
 Double click 'performR.exe', you should perform the context of R script (summary.r).
 
 ## Notice:
@@ -30,3 +33,6 @@ You should put your R script in 'dist' directory. "performR.exe" has the same fu
 
 ## To do list:
 Read data from outside.
+
+## Reference:
+py2exe tutorial: http://www.py2exe.org/index.cgi/Tutorial
