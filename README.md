@@ -1,5 +1,5 @@
 # Rexe
-A solution for R perform executive in Windows
+A solution for R creating executive file
 
 ## Environment
 * Python 3.4 (Installed by Anaconda 4.3.21)
@@ -10,7 +10,7 @@ A solution for R perform executive in Windows
 
 ## Before start
 You should add R path into System variables, or cmd can't find Rscript.
-(How to add R path: https://www.youtube.com/watch?v=C-U9SGaNbwY)
+[How to add system variables](https://www.youtube.com/watch?v=C-U9SGaNbwY)
 
 ## Let's start
 ### Step 1: 
