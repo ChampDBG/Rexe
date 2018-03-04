@@ -9,12 +9,12 @@ A solution for R creating executive file
 * py2exe (I use pip in Anaconda)
 
 ## Before start
-You should add R path into System variables, or cmd can't find Rscript.
+You should add the path of "Rscript.exe" into System variables, or cmd can't find Rscript.
 ([How to add system variables](https://www.youtube.com/watch?v=C-U9SGaNbwY))
 
 ## Let's start
 ### Step 1: 
-Use Python to call specifty R script. (You can do it with "performR.py")
+Use Python to call specific R script. (You can do it with "performR.py")
 
 ### Step 2:
 Use py2exe to pack "performR.py", and you will get 'dist' directory. (You will do this step by "setup.py")
