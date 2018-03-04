@@ -29,7 +29,7 @@ Put your R script into correct path. (Where should you put the R script depends 
 Double click 'performR.exe', it will perform the context of R script (summary.r).
 
 ## Notice:
-You should put your R script in 'dist' directory. "performR.exe" has the same function as "performR.py". Thus, if you want to test performR.py, Rscript should in the same path. So as perform.exe.
+You should put your R script in 'dist' directory. "performR.exe" has the same function as "performR.py". Thus, if you want to test performR.py, R script should in the same path. So as perform.exe.
 
 ## To do list:
 Read data from outside.
