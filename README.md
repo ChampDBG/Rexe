@@ -26,7 +26,7 @@ Entering "python setup.py py2exe" in cmd, and py2exe will start packing.
 Put your R script into correct path. (Where should you put the R script depends on your code. In my case, you should put R script in the same directory as 'performR.exe')
 
 ### Step 5:
-Double click 'performR.exe', you should perform the context of R script (summary.r).
+Double click 'performR.exe', it will perform the context of R script (summary.r).
 
 ## Notice:
 You should put your R script in 'dist' directory. "performR.exe" has the same function as "performR.py". Thus, if you want to test performR.py, Rscript should in the same path. So as perform.exe.
