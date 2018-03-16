@@ -1,4 +1,4 @@
 import os
 import time
-os.system('Rscript ./summary.r')
-time.sleep(3)
+os.system("Rscript ./Rscript.r")
+os.system("pause")

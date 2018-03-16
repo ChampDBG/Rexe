@@ -9,10 +9,11 @@ A solution for R creating executive file
 * py2exe (I use pip in Anaconda)
 
 ## Before start
-You should add the path of "Rscript.exe" into System variables, or cmd can't find Rscript.
+1. You should add the path of "Rscript.exe" into System variables PATH, or cmd can't find Rscript.exe when you want to execute R in cmd.
 ([How to add system variables](https://www.youtube.com/watch?v=C-U9SGaNbwY))
+2. install python and py2exe
 
-## Let's start
+## Create executive file by yourself (you can skip this part if you don't want to generate executive file by yourself)
 ### Step 1: 
 Use Python to call specific R script. (You can do it with "performR.py")
 
@@ -22,14 +23,16 @@ Use py2exe to pack "performR.py", and you will get 'dist' directory. (You will d
 ### Step 3:
 Entering "python setup.py py2exe" in cmd, and py2exe will start packing.
 
-### Step 4
-Put your R script into correct path. (Where should you put the R script depends on your code. In my case, you should put R script in the same directory as 'performR.exe')
+## Use performR.exe (there are two example, see directory "pack" and "library")
+### Step 1:
+Write your R script, name "Rscript.r" and put your script into the same directory as "performR.exe"
 
-### Step 5:
-Double click 'performR.exe', it will perform the context of R script (summary.r).
+### Step 2:
+Double click 'performR.exe', it will perform the context of R script (Rscript.r).
 
-## Notice:
-You should put your R script in 'dist' directory. "performR.exe" has the same function as "performR.py". Thus, if you want to test performR.py, R script should in the same path. So as perform.exe.
+### Notice:
+1. You should put your R script in the directory where "performR.exe" exist.
+2. It is fine to library package and plot. 
 
 ## To do list:
 Read data from outside.
